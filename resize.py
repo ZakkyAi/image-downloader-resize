@@ -27,7 +27,7 @@ def filter_and_resize_images(input_directory, output_directory, output_file, min
                     print(f"Could not process {file_path}: {e}")
 
 # Usage
-input_directory = r'hewan berkaki 4\four-legged animal'  # Fixed path
-output_directory = 'resized_images'  # Directory to save resized images
+input_directory = r'poltek\politeknik negeri sriwijaya'  # Fixed path
+output_directory = 'resized_images poltek'  # Directory to save resized images
 output_file = 'filtered_image_paths.txt'  # File to save paths of resized images
 filter_and_resize_images(input_directory, output_directory, output_file)
